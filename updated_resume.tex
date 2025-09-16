@@ -1,0 +1,159 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage[colorlinks=true, linkcolor=black, urlcolor=black]{hyperref}  % Hyperlinks without colored boxes
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}{$\bullet$}{\topsep 0pt \itemsep -2pt}
+}{ 
+    \vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Baha Celik}}\\
+	Vilnius $\cdot$ 35celik.baha@gmail.com $\cdot$ +37066264894 $\cdot$ 
+	\href{https://www.linkedin.com/in/baha-celik-345698257}{LinkedIn} $\cdot$ 
+	\href{https://github.com/p3rc1va1}{GitHub} $\cdot$
+    \href{https://public.tableau.com/app/profile/baha.celik/vizzes}{Tableau}
+\end{center}
+
+\vspace{5pt}
+\noindent Highly motivated and \textbf{outcome-oriented} Data Scientist with a proven track record in \textbf{scoping and delivering end-to-end AI solutions} and \textbf{transforming} business processes through \textbf{hands-on experimentation} and advanced analytics. Eager to \textbf{leverage} expertise in machine learning, GenAI, and data engineering to \textbf{solve real-world business problems} and \textbf{add value}. Committed to \textbf{promoting clear directions for standards, best practices, and ways of working} while contributing to the \textbf{AWS migration} and \textbf{empowering the organization} to \textbf{leverage data and AI technologies} in a collaborative environment.
+\vspace{5pt}
+
+%==== Education ====%
+\header{Education}
+\textbf{Vilnius Tech}\hfill Vilnius\\
+Bachelor of Applied Artificial Intelligence \textit{GPA: 9.1 / 10} \hfill September 2022 - Present\\
+Relevant coursework includes: Advanced Machine Learning, Statistical Modeling, Cloud Computing Principles, Data Structures \& Algorithms.
+\vspace{2mm}
+\textbf{Turing College}\hfill Vilnius\\
+Data Science \hfill March 2023 - August 2023\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Work experience}
+\vspace{1mm}
+
+\textbf{TMV Capital} \hfill Vilnius\\
+\textit{Intelligent Process Automation Specialist} \hfill August 2023 - May 2024\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item \textbf{Transformed} the company's data management from Excel-based systems to relational databases (MongoDB) within 6 months, utilizing low-code platforms (Aurachain).
+	\item \textbf{Designed user interfaces (UI/UX)} and \textbf{maintained robust data pipelines}, ensuring efficient \textbf{data collection} and integrity.
+	\item Gained \textbf{hands-on experience} in \textbf{database management}, RPA, and data collection, \textbf{solving real-world business problems} through process automation.
+\end{itemize}
+\textbf{TMV Competence Center} \hfill Vilnius\\
+\textit{Process Automation Developer} \hfill May 2024 - Mar 2025\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item \textbf{Led the migration} to Microsoft Power Platform (MS Power Automate, MS Power Apps), \textbf{transforming} internal processes and \textbf{leveraging automation capabilities} across the organization.
+	\item \textbf{Developed and delivered multiple AI applications}, including an invoice extraction system from PDFs and user input validation, \textbf{adding value} by streamlining operations.
+	\item \textbf{Designed and implemented} in-house RPA tools and an internal stamping API, significantly reducing reliance on external providers and \textbf{promoting best practices} in process automation.
+\end{itemize}
+\textbf{Accenture} \hfill Vilnius\\
+\textit{Data Science \& AI Intern} \hfill Mar 2025 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item \textbf{Applied} advanced analytics, supervised ML, unsupervised ML, time series, recommendation systems, text analytics, NLP, GenAI/LLM, and computer vision to \textbf{deliver end-to-end AI solutions}.
+	\item \textbf{Contributed} to \textbf{real-life machine learning projects in production}, including GenAI systems for secure data navigation (Defence) and machine vision for QA (Automotive), \textbf{elevating data-driven decision-making} and \textbf{adding value}.
+	\item \textbf{Developed and implemented} prompt engineering strategies for realistic demo scenarios, demonstrating \textbf{hands-on experimentation} and \textbf{problem-solving}.
+\end{itemize}
+\textbf{Advokatas.ai} \hfill Vilnius\\
+\textit{Founder} \hfill Jun 2025 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item \textbf{Scoped and delivered} Advokatas.ai, an \textbf{end-to-end AI solution} as an AI legal chatbot for Lithuania, leveraging \textbf{RAG architecture} with a vectorized database of the Lithuanian legal system.
+	\item \textbf{Designed and developed} a system to provide 24/7 legal advice, \textbf{solving real-world business problems} and demonstrating a \textbf{product development mindset} with a focus on \textbf{adding value}.
+\end{itemize}
+\header{Skills}
+\begin{tabular}{ l l }
+	Programming Languages:    & Python, SQL, Power Fx \\
+	Machine Learning \& AI:   & Mathematics, Statistics, Machine Learning (Supervised, Unsupervised), Deep Learning (TensorFlow, YOLO), GenAI/LLM, NLP, Computer Vision, Time Series, Recommendation Systems, Prompt Engineering, RAG, LangChain, RAFT, XGBoost, Scikit-learn, Statsmodels, Prophet, OpenCV \\
+	Data Processing \& Databases: & Spark/PySpark, SQL (Microsoft SQL, MongoDB), Pandas, Numpy \\
+	Cloud Platforms:          & AWS, Azure, GCP \\
+	MLOps \& DevOps:          & Git, Docker, CI/CD, MLflow, Airflow \\
+	Web Frameworks \& APIs:   & FastAPI, Flask, React, REST API \\
+	Business Intelligence \& Automation: & MS Power Apps, MS Power Automate, MS Power BI, RPA (Aurachain) \\
+	Methodologies:            & Agile, Design Thinking
+\end{tabular}
+\vspace{2mm}
+
+\header{Projects}
+{\textbf{3-D Print Failure Detection}} {\sl Python} \hfill \href{https://github.com/p3rc1va1/3D-Print-Failure-Detection}{GitHub Link}\\
+Developed a \textbf{computer vision} solution to detect 3D print failures, aiming to \textbf{save costs} for university printers. Utilized OpenCV and TensorFlow.
+\vspace*{2mm}
+{\textbf{RageDetector}} {\sl Python} \hfill \href{https://github.com/p3rc1va1/RageDetector}{GitHub Link}\\
+Implemented a real-time video emotion detection system using deepface, showcasing expertise in \textbf{computer vision} and \textbf{machine learning} for emotion recognition.
+\vspace*{2mm}
+{\textbf{Weapon-detection}}   {\sl    Python} \hfill \href{https://github.com/p3rc1va1/weapon-detection}{GitHub Link}\\
+Designed and fine-tuned YOLO v12 for object detection, demonstrating advanced \textbf{computer vision} and \textbf{deep learning} skills in a critical application.
+\vspace*{2mm}
+{\textbf{Obstacle-avoidance}} {\sl Python} \hfill \href{https://github.com/p3rc1va1/Obstacle-avoidance}{GitHub Link}\\
+Created a visual simulation of a navigation algorithm, applying principles of \textbf{AI} and \textbf{problem-solving} in pathfinding.
+\vspace*{2mm}
+To see more projects please check out my \href{https://github.com/p3rc1va1}{GitHub}
+\ 
+\end{document}

@@ -1,0 +1,144 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage[colorlinks=true, linkcolor=black, urlcolor=black]{hyperref}  % Hyperlinks without colored boxes
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}{$\bullet$}{\topsep 0pt \itemsep -2pt}
+}{ 
+    \vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Baha Celik}}\\
+	Vilnius $\cdot$ 35celik.baha@gmail.com $\cdot$ +37066264894 $\cdot$ 
+	\href{https://www.linkedin.com/in/baha-celik-345698257}{LinkedIn} $\cdot$ 
+	\href{https://github.com/p3rc1va1}{GitHub} $\cdot$
+    \href{https://public.tableau.com/app/profile/baha.celik/vizzes}{Tableau}
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{Vilnius Tech}\hfill Vilnius\\
+Bachelor of Applied Artificial Intelligence \textit{GPA: 9.1 / 10} \hfill September 2022 - Present\\
+\vspace{2mm}
+\textbf{Turing College}\hfill Vilnius\\
+Data Science \hfill March 2023 - August 2023\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Work experience}
+\vspace{1mm}
+
+\textbf{TMV Capital} \hfill Vilnius\\
+\textit{Intelligent Process Automation Specialist} \hfill August 2023 - May 2024\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item We were using a low-code system called Aurachain for data collection, we have designed interfaces and maintained our own data pipelines with MongoDB. We have transformed the company from excel files to relational databases in 6 months. I had a lot of experience with various areas including UI\&UX , database management, RPA, and data collection.
+\end{itemize}
+\textbf{TMV Competence Center} \hfill Vilnius\\
+\textit{Process Automation Developer} \hfill May 2024 - Mar 2025\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Our team has changed company and tech stack. We have completely moved to Microsoft power platform mainly MS power automate and MS power apps. Did multiple AI apps such as invoice system that extracts information from a PDF file, User input validation, smart flows that coherently links different systems in the most optimum way. In house RPA tools such as: Vacation leave request, Remote work leave request, Vehicle reservation, different types of contracts and etc. Made an in house stamping API instead of outsourcing to an external provider to watermark invoices approval stages internally and many more!
+\end{itemize}
+\textbf{Accenture} \hfill Vilnius\\
+\textit{Data Science \& AI Intern} \hfill Mar 2025 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Understand and study the topics of advanced analytics, supervised ML, unsupervised ML, time series, recommendation systems, text analytics, NLP, GenAI/LLM, and computer vision. Prompt engineering for realistic demo scenarios. Contributed in real life machine learning projects that are in production in industries such as Defence (GenAI systems for companies to easily navigate and use their private data without the security concerns of outside services.) and Automative (Machine vision for QA in production line).
+\end{itemize}
+\textbf{Advokatas.ai} \hfill Vilnius\\
+\textit{Founder} \hfill Jun 2025 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item AI legal chatbot for Lithuania. RAG architecture with Lithuanian legal system as its vectorized database, will provide legal advice 24/7 at your fingertips. Will be launching soon, if you are curious you can checkout here for more information: https://advokatas.ai/ .
+\end{itemize}
+\header{Skills}
+\begin{tabular}{ l l }
+	Programming Languages:    & Python, SQL, HTML, CSS, JavaScript, TypeScript, Power Fx       \\
+	Web Technologies:         & React, REST API, Microsoft SQL, MONGO DB                       \\
+	Microsoft Power Platform: & MS Power apps, MS Power automate, MS Power BI                  \\
+	Python libraries:         & Numpy, Pandas, Seaborn, Matplotlib, Flask, Fast API,TensorFlow,\\ & Scikit-learn, Statsmodels, opencv-python, XGBoost, Prophet, YOLO \\
+	Cloud platforms:          & Azure, GCP                                                     \\
+    Other: & LangChain, ChromaDB, RAG, RAFT
+\end{tabular}
+\vspace{2mm}
+
+\header{Projects}
+{\textbf{3-D Print Failure Detection}} {\sl Python} \hfill https://github.com/p3rc1va1/3D-Print-Failure-Detection\\
+3D print failure detection project for universities printers to save costs\\
+\vspace*{2mm}
+{\textbf{RageDetector}} {\sl Python} \hfill https://github.com/p3rc1va1/RageDetector\\
+Real time video emotion detection via deepface.\\
+\vspace*{2mm}
+{\textbf{Weapon-detection}}   {\sl    Python} \hfill https://github.com/p3rc1va1/weapon-detection\\
+Object detection both created from scratch and fined tune YOLO v12.\\
+\vspace*{2mm}
+{\textbf{Obstacle-avoidance}} {\sl Python} \hfill https://github.com/p3rc1va1/Obstacle-avoidance\\
+Visual simulation of a navigation algorithm\\
+To see more projects please check out my \href{https://github.com/p3rc1va1}{GitHub}
+\ 
+\end{document}

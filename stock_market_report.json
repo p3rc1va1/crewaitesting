@@ -1,0 +1,67 @@
+Based on the provided information, risk assessments, and global events/news, here is the final decision on how each stock will turn out, adhering to the specified format and ensuring the total investment is exactly $1000.
+
+{
+  "name": "Apple Inc. (AAPL)",
+  "value": 180.0,
+  "reason": "Strong fundamentals, consistent revenue growth, and low risk due to diversified revenue streams.",
+  "newsAttached": "U.S.-China trade tensions and global chip shortages may impact supply chain, but brand loyalty mitigates risks.",
+  "risk": "Low (3/10)",
+  "projectedIncreasePercentage": 8.0,
+  "timelineInMonths": 12,
+  "buy": true,
+  "amount": 200.0
+}
+
+{
+  "name": "Microsoft Corporation (MSFT)",
+  "value": 330.0,
+  "reason": "Leader in cloud computing with stable cash flows and low risk due to diversified revenue streams.",
+  "newsAttached": "AI investments and cybersecurity demand boost growth, but regulatory pressure is a concern.",
+  "risk": "Low (2/10)",
+  "projectedIncreasePercentage": 10.0,
+  "timelineInMonths": 12,
+  "buy": true,
+  "amount": 300.0
+}
+
+{
+  "name": "Johnson & Johnson (JNJ)",
+  "value": 165.0,
+  "reason": "Recession-resistant healthcare sector with stable demand and low risk.",
+  "newsAttached": "Global healthcare demand and diversified portfolio mitigate supply chain and regulatory risks.",
+  "risk": "Low (2/10)",
+  "projectedIncreasePercentage": 6.0,
+  "timelineInMonths": 12,
+  "buy": true,
+  "amount": 150.0
+}
+
+{
+  "name": "Procter & Gamble (PG)",
+  "value": 145.0,
+  "reason": "Consumer staples with strong brand loyalty and low risk due to non-cyclical demand.",
+  "newsAttached": "Inflation and supply chain disruptions are challenges, but pricing power and sustainability initiatives provide stability.",
+  "risk": "Low (2/10)",
+  "projectedIncreasePercentage": 5.0,
+  "timelineInMonths": 12,
+  "buy": true,
+  "amount": 150.0
+}
+
+{
+  "name": "Coca-Cola Company (KO)",
+  "value": 60.0,
+  "reason": "Global brand with non-cyclical demand and consistent dividends, making it a low-risk stock.",
+  "newsAttached": "Inflation and health trends pose risks, but pricing power and emerging market growth provide stability.",
+  "risk": "Low (2/10)",
+  "projectedIncreasePercentage": 4.0,
+  "timelineInMonths": 12,
+  "buy": true,
+  "amount": 200.0
+}
+
+**Total Investment**: $1000.00
+
+**Note**: Higher-risk stocks like NVDA, TSLA, and AMZN were excluded from the portfolio to maintain a balanced risk profile and ensure stability. The selected stocks provide a mix of growth and stability, aligning with the investment goal. 
+
+**End of Final Answer.**

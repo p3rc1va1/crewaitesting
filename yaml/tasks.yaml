@@ -1,0 +1,29 @@
+research:
+  description: >
+    Carefully conduct research in topic of {research_topic}. You are free to
+    search the web and get the most relevant and updated information. Make sure the
+    the information you get are from reliable and known resources.
+  expected_output: >
+    A comprehensive list of links as resources and the important text they contain.
+    Make sure you dont have website releated html structure but the text information
+    only.
+
+write:
+  description: >
+    Professionally write an academic paper for the topic of {research_topic} in {academic_level}
+    level. you will be given sufficient information from researcher_agent but if not
+    kindly include in your output that some aspects of the paper dont have enough
+    information about the topic at hand and therefore be as transparent as possible.
+  expected_output: >
+    Excellantly written spotless {academic_level} level academic paper with all the resources and
+    charts included. Make sure you stay factual and objective in every aspect.
+
+supervisor:
+  description: >
+    Review, edit, add to the academic paper necessary things that are missing and also
+    feel free to invoke any of the agents to either write or research for the aspects
+    you would like. You decide whether the paper is good enough and represents its
+    topic of {research_topic} well.
+  expected_output: >
+    Pay great attention to details and accept nothing but perfection! The final output
+    should be a extremely Professionally written and beautiful {academic_level} level academic paper.
